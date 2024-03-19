@@ -45,3 +45,21 @@ if(height===1.5){
     let height="1.5";
     console.log(name+height)
 }
+
+let repository= [
+    {
+        name: "Pikachu",
+        height: 0.4,
+        type:["electric"]
+    },
+    {
+        name:"Vileplume",
+        height:"1.2",
+        types:["grass","poison"]    
+    },
+    {
+        name:"Gengar",
+        height:"1.5",
+        types:["ghost","poison"]
+    }
+];
