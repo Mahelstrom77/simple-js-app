@@ -27,3 +27,13 @@ if(height===1.5){
 } else{
     console.log('You are not gengar!')
 }
+
+for(let i=height; i<=2; i++){
+    console.log(i);
+}
+for(let i=type; i<=z; i++){
+    console.log(i);
+}
+for(let i=name; i<=z; i++){
+    console.log(i);
+}
