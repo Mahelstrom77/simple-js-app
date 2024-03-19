@@ -14,7 +14,7 @@ if (height===0.4){
     document.write(Pikachu);
 
     let name='pikachu';
-    let height='0.4';
+    let height="0.4";
     console.log(name+height)
 }
 
@@ -28,7 +28,7 @@ if(height===1.2){
     document.write(Vileplume);
 
     let name='vileplume';
-    let height='1.2';
+    let height="1.2";
     console.log(name+height)
 }
 
@@ -42,6 +42,6 @@ if(height===1.5){
     document.write(Gengar);
 
     let name='gengar';
-    let height='1.5';
+    let height="1.5";
     console.log(name+height)
 }
