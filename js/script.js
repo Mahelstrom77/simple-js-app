@@ -10,6 +10,12 @@ if (height===0.4){
     console.log('You are pikachu!');
 } else{
     console.log('You are not pikachu!');
+
+    document.write(Pikachu);
+
+    let name='pikachu';
+    let height='0.4';
+    console.log(name+height)
 }
 
 if(height===1.2){
@@ -18,6 +24,12 @@ if(height===1.2){
     console.log('You are vileplume!');
 } else{
     console.log('You are not vileplume!');
+
+    document.ownerDocument(Vileplume);
+
+    let name='vileplume';
+    let height='1.2';
+    console.log(name+height)
 }
 
 if(height===1.5){
@@ -25,15 +37,11 @@ if(height===1.5){
 } else if(type===ghost,poison){
     console.log('You are gengar!');
 } else{
-    console.log('You are not gengar!')
-}
+    console.log('You are not gengar!');
 
-for(let i=height; i<=2; i++){
-    console.log(i);
-}
-for(let i=type; i<=z; i++){
-    console.log(i);
-}
-for(let i=name; i<=z; i++){
-    console.log(i);
+    document.write(Gengar);
+
+    let name='gengar';
+    let height='1.5';
+    console.log(name+height)
 }
