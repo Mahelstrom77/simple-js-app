@@ -4,17 +4,7 @@ let pokemonList=[
     {name: "gengar", height: 1.5, type: ['ghost', 'poison']}
 ]
 
-let pokemonRepo = ('function')
-function add(pokemon){
-    if(
-        typeof pokemon==='height' && 'name' in pokemon
-    ){
-        pokemonList.push(pokemon);
-    } else{
-        console.error('pokemon is not correct');
-    }
-}
-
-function getall(){
-    return pokemonList;
+let pokemon=[pikachu,vileplume,gengar];
+for(let i=0; i<pokemon.length; i++){
+    console.log(pokemon[i]);
 }
