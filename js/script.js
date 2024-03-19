@@ -14,3 +14,7 @@ function add(pokemon){
         console.error('pokemon is not correct');
     }
 }
+
+function getall(){
+    return pokemonList;
+}
