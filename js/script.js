@@ -6,7 +6,7 @@ let pokemonList=[
 
 
 for(let i=0; i<pokemonList.length; i++){
-    if(pokemonList[i].height<1){
+    if (pokemonList[i].height<1){
     console.log(pokemonList[i].name + " is Pikachu");
     document.write(Pikachu)
     let name='Pikachu';
@@ -20,8 +20,9 @@ for(let i=0; i<pokemonList.length; i++){
     document.write(Vileplume)
     let name='Vileplume';
     let message= (height=1.4);
-    console.log(name+message);
-    }else {
+    console.log(name+message);}
+    
+    else {
     console.log(pokemonList[i].name + " is Gengar");
     document.write(Gengar)
     let name='Gengar';
