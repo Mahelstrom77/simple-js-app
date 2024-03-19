@@ -13,16 +13,16 @@ for(let i=0; i<pokemonList.length; i++){
     let message= (height=0.4);
     console.log(name+message);
     if (height===0.4){
-        console.log('Wow, your small');
-    }
+        console.log('Wow, your small');}
+
     }else if (pokemonList[i].height>1 && pokemonList[i].height<1.4);{
     console.log(pokemonList[i].name + " is Vileplume");
     document.write(Vileplume)
     let name='Vileplume';
     let message= (height=1.4);
-    console.log(name+message);}
+    console.log(name+message);
     
-    else {
+    }else {
     console.log(pokemonList[i].name + " is Gengar");
     document.write(Gengar)
     let name='Gengar';
