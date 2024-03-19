@@ -25,7 +25,7 @@ if(height===1.2){
 } else{
     console.log('You are not vileplume!');
 
-    document.ownerDocument(Vileplume);
+    document.write(Vileplume);
 
     let name='vileplume';
     let height='1.2';
