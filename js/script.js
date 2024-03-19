@@ -12,6 +12,9 @@ for(let i=0; i<pokemonList.length; i++){
     let name='Pikachu';
     let message= (height=0.4);
     console.log(name+message);
+    if (height===0.4){
+        console.log('Wow, your small');
+    }
     }else if (pokemonList[i].height>1 && pokemonList[i].height<1.4);{
     console.log(pokemonList[i].name + " is Vileplume");
     document.write(Vileplume)
