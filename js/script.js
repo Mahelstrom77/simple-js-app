@@ -12,6 +12,10 @@ let name2='Vileplume';
 let name3='Gengar';
     let name6="(height:2.5)"
 
+if (height===2.1){
+    console.log('Wow, you big!')
+}
+
 for(let i=0; i<pokemonList.length; i++){
 console.log(pokemonList[i])
     if (pokemonList[i].height >0 && pokemonList[i].height<=1){
