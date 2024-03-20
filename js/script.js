@@ -23,7 +23,7 @@ if (pokemonList[i].height>2 && pokemonList[i].height<3){
     }
 
 if(pokemonList[i].height>2.1){
-        console.log('Wow, your big!')
+        document.write('Wow, your big!')
     }
 }
    
