@@ -10,7 +10,7 @@ console.log(pokemonList[i])
     if (pokemonList[i].height >0 && pokemonList[i].height<=1){
     console.log(pokemonList[i].name + " is Pikachu");
 
-    }if (pokemonList[i].height<=1.2);{
+    }else (pokemonList[i].height<=1.2);{
     console.log(pokemonList[i].name + " is Vileplume");
     }
 
