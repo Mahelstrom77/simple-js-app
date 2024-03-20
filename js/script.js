@@ -5,7 +5,7 @@ let pokemonList=[
 ]
 
 
-for (let i=0; i > pokemonList.height; i++){
+for (let i=0; i < pokemonList.height; i++){
     if (pokemonList[i].height <0.5 && pokemonList[i].height >0){
       console.log(person[i].name + " is Pikachu");
     }else if (pokemonList[i].height <1.2){
