@@ -12,7 +12,7 @@ let name2='Vileplume';
 let name3='Gengar';
     let name6="(height:2.5)"
 
-if (height===2.1){
+if (height===2.5){
     console.log('Wow, you big!')
 }
 
