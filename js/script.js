@@ -5,13 +5,16 @@ let pokemonList=[
 ]
 
 
-for(let i=0; i<pokemonList.height; i++){
+for(let i=0; i<pokemonList.length; i++){
 console.log(pokemonList[i])
-if (pokemonList[i].height <19 && person[i].age >13){
-    console.log(person[i].name + " is a teenager");
-  }else if (person[i].age <13){
-    console.log(person[i].name + " is a child");
-  }else {
-    console.log(person[i].name + " is an adult");
-  }
-}
+    if (pokemonList[i].height >0 && pokemonList[i].height<=1){
+    console.log(pokemonList[i].name + " is Pikachu");
+
+    }else if (pokemonList[i].height>1.3 && pokemonList[i].height<1.4);{
+    console.log(pokemonList[i].name + " is Vileplume");
+    }
+
+    if (pokemonList[i].height>1.4 && pokemonList[i].height<2){
+    console.log(pokemonList[i].name + " is Gengar");
+        }
+    }
