@@ -12,10 +12,7 @@ let name2='Vileplume';
 let name3='Gengar';
     let name6="(height:2.5)"
 
-let height=2.5;
-if (height){
-    console.log('Wow, your big!')
-}
+
 
 for(let i=0; i<pokemonList.length; i++){
 console.log(pokemonList[i])
@@ -34,5 +31,9 @@ console.log(pokemonList[i])
             console.log(pokemonList[i].name + " is Gengar");
                 document.write(name3,name6)
         }
+        let height=2.5;
+            if (height){
+                console.log('Wow, your big!')
+}
 }
    
