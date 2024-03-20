@@ -3,13 +3,15 @@ let pokemonList=[
     {name: "vileplume", height: 2, type: ['grass', 'poison']},
     {name: "gengar", height: 2.5, type: ['ghost', 'poison']}
 ]
-
+let name1='pikachu';
+let name2='vileplume';
+letname3='gengar';
 
 for(let i=0; i<pokemonList.length; i++){
 console.log(pokemonList[i])
     if (pokemonList[i].height >0 && pokemonList[i].height<=1){
     console.log(pokemonList[i].name + " is Pikachu");
-
+    document.write(name1)
 }
 
      if (pokemonList[i].height>1 && pokemonList[i].height<2.4){
