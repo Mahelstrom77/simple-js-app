@@ -7,14 +7,14 @@ let pokemonList=[
 
 for(let i=0; i<pokemonList.length; i++){
 console.log(pokemonList[i])
-    if (pokemonList[i].height>0.7 && pokemonList[i].height<0.3){
+    if (pokemonList[i].height>0.1 && pokemonList[i].height<=0.4){
     console.log(pokemonList[i].name + " is Pikachu");
 
-    }if (pokemonList[i].height>0.5 && pokemonList[i].height<1.4);{
+    }if (pokemonList[i].height>1 && pokemonList[i].height<1.4);{
     console.log(pokemonList[i].name + " is Vileplume");
     }
 
-    if (pokemonList[i].height>=1.5 && pokemonList[i].height<2){
+    if (pokemonList[i].height>1.4 && pokemonList[i].height<2){
     console.log(pokemonList[i].name + " is Gengar");
         }
     }
