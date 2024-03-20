@@ -28,7 +28,7 @@ if (pokemonList[i].height>1 && pokemonList[i].height<2.4){
     }
 
 if (pokemonList[i].height>2 && pokemonList[i].height<3){
-            console.log(pokemonList[i].name + " is Gengar");
+            document.write(pokemonList[i].name + " is Gengar", name6);
                 document.write(name3,name6)
     }
 
