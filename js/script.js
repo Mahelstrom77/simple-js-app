@@ -5,7 +5,7 @@ let pokemonList=[
 ]
 let name1='Pikachu';
 let name2='Vileplume';
-letname3='Gengar';
+let name3='Gengar';
 
 for(let i=0; i<pokemonList.length; i++){
 console.log(pokemonList[i])
