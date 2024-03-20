@@ -19,7 +19,7 @@ for(let i=0; i<pokemonList.length; i++){
 
 if (pokemonList[i].height >0 && pokemonList[i].height<=1){
             console.log(pokemonList[i].name + " is Pikachu");
-                document.write(name1,name4)                 
+                document.write(pokemonList[i].name + "(height:1)")                 
     }
 
 if (pokemonList[i].height>1 && pokemonList[i].height<2.4){
