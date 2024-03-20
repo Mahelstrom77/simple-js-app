@@ -6,6 +6,8 @@ let pokemonList=[
 
 
 for(let i=0; i<pokemonList.length; i++){
+    console.log(i);
+    
     if (pokemonList[i].height<1){
     console.log(pokemonList[i].name + " is Pikachu");
 
