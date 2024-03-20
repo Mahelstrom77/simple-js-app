@@ -31,9 +31,6 @@ console.log(pokemonList[i])
             console.log(pokemonList[i].name + " is Gengar");
                 document.write(name3,name6)
         }
-        let height=2.5;
-            if (height){
-                console.log('Wow, your big!')
-}
+        
 }
    
