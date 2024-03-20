@@ -14,7 +14,7 @@ console.log(pokemonList[i])
     console.log(pokemonList[i].name + " is Vileplume");
     }
 
-    elseif (pokemonList[i].height>=1.5);{
+    ifelse (pokemonList[i].height>=1.5);{
     console.log(pokemonList[i].name + " is Gengar");
         }
     }
