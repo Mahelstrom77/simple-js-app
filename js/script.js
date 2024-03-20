@@ -5,12 +5,12 @@ let pokemonList=[
 ]
 
 
-for(let i=0; i<pokemonList.length; i++){
+for(let i=1; i<pokemonList.length; i++){
 
     if (pokemonList[i].height>0.1 && pokemonList[i].height<0.5){
     console.log(pokemonList[i].name + " is Pikachu");
 
-    }else if (pokemonList[i].height<1.1 && pokemonList[i].height<=1.2);{
+    }else if (pokemonList[i].height>1.1 && pokemonList[i].height<=1.2);{
     console.log(pokemonList[i].name + " is Vileplume");
     }
 
