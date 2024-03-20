@@ -24,7 +24,7 @@ if (pokemonList[i].height >0 && pokemonList[i].height<=1){
 
 if (pokemonList[i].height>1 && pokemonList[i].height<2.4){
             console.log(pokemonList[i].name + " is Vileplume");
-                document.write(name2,name5)
+                document.write(pokemonList[i].name + "(height:2)")
     }
 
 if (pokemonList[i].height>2 && pokemonList[i].height<3){
