@@ -3,16 +3,6 @@ let pokemonList=[
     {name: "vileplume", height: 2, type: ['grass', 'poison']},
     {name: "gengar", height: 2.5, type: ['ghost', 'poison']}
 ]
-let name1='Pikachu';
-    let name4="(height:7)"
-
-let name2='Vileplume';
-    let name5="(height:2)"
-
-let name3='Gengar';
-    let name6="(height:2.5)"
-
-
 
 for(let i=0; i<pokemonList.length; i++){
     console.log(pokemonList[i])
