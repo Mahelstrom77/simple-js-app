@@ -8,12 +8,12 @@ let pokemonList=[
 for(let i=0; i<pokemonList.length; i++)
 {
     if(pokemonList[i].height<=1){
-        console.log(pokemonList[i].name +" is pikachu");
+        document.write(pokemonList[i].name +" is pikachu");
     }
     else if(pokemonList[i].height>1 && pokemonList[i].height<2.5){
-        console.log(pokemonList[i].name + " is vileplume");  
+        document.write(pokemonList[i].name + " is vileplume");  
     }
     else{
-        console.log(pokemonList[i].name + " is gengar");
+        document.write(pokemonList[i].name + " is gengar");
     }
 }
