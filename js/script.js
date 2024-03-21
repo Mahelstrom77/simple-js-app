@@ -15,5 +15,5 @@ for(let i=0; i<pokemonList.length; i++)
     }
     else{
         console.log(pokemonList[i].name + " is gengar");
-    }
+    }document.write(pikachu,vileplume,gengar);
 }
