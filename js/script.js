@@ -5,7 +5,9 @@ let pokemonList=[
     {name: "gengar", height: 2.5, type: ['ghost', 'poison']}
 ];
 //start of my loop//
-for(let i=0; i<pokemonList.length; i++){
+for(let i=0; i<pokemonList.length; i++)
+document.write(pikachu,vileplume,gengar);
+{
     if(pokemonList[i].height<=1){
         console.log(pokemonList[i].name +" is pikachu");
     }
