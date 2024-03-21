@@ -5,16 +5,7 @@ let pokemonList=[
     {name: "gengar", height: 2.5, type: ['ghost', 'poison']}
 ]
 //start of my loop//
-for(let i=0; i<pokemonList.height; i++){
-    console.log(pokemonList[i])
-    
-if(pokemonList[i].height<2){
-    console.log(pokemonList.name +"is Pikachu");
-}  
-    else if (pokemonList[i].height>1 && pokemonList.height<2.5){
-        console.log(pokemonList[i].name + "is Vileplume");
-    }
-        else{
-            console.log(pokemonList[i].name +"is Gengar");
-        }
+let heights=[1, 2, 2.5];
+for(let i=0; i<height.length; i++){
+    console.log(heights[i]-2);
 }
