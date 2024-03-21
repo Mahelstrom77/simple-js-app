@@ -6,6 +6,6 @@ let pokemonList=[
 ]
 //start of my loop//
 let heights=[1, 2, 2.5];
-for(let i=0; i<height.length; i++){
+for(let i=0; i<heights.length; i++){
     console.log(heights[i]-2);
 }
