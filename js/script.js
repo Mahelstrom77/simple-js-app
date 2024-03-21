@@ -8,4 +8,7 @@ let pokemonList=[
 let heights=[1, 2, 2.5];
 for(let i=0; i<heights.length; i++){
     console.log(heights[i]);
-}
+}let names=[pikachu, vileplume,gengar];
+    for(let i=0; i<names.length; i++){
+        console.log(names[i]);
+    }
