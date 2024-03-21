@@ -26,7 +26,7 @@ for(let i=0; i<pokemonList.length; i++)
         document.write(pokemonList[i].name+ text3)
     }
 
-    if(height>2 && height<2.6){
+    if(pokemonList[i].height>2 && pokemonList[i].height<2.6){
         console.log('Wow, thats Big!')
     }
 }
