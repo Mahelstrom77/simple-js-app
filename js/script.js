@@ -26,13 +26,5 @@ if (pokemonList[i].height>2 && pokemonList[i].height<3){
 if(pokemonList[i].height>2.1){
         document.write('Wow, your big!')
     }
-    let height=2;
-    let result;
-    if(height>2){
-        result='Wow, its big!';
-    }
-    else{
-        result='normal height';
-    }
 }
    
