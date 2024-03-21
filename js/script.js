@@ -7,12 +7,12 @@ let pokemonList=[
 //start of my loop//
 for(let i=0; i<pokemonList.length; i++){
     if(pokemonList[i].height<=1){
-        console.log(pokemonList[i].name +"is pikachu");
+        console.log(pokemonList[i].name +" is pikachu");
     }
     else if(pokemonList[i].height>1 && pokemonList[i].height<2.5){
-        console.log(pokemonList[i].name + "is vileplume");
+        console.log(pokemonList[i].name + " is vileplume");
     }
     else{
-        console.log(pokemonList[i].name + "is gengar");
+        console.log(pokemonList[i].name + " is gengar");
     }
 }
