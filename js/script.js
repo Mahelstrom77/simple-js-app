@@ -27,6 +27,6 @@ for(let i=0; i<pokemonList.length; i++)
     }
 
     if(pokemonList[i].height>2 && pokemonList[i].height<2.6){
-        Document.write('Wow, thats Big!')
+        console.log('Wow, thats Big!')
     }
 }
