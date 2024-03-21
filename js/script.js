@@ -28,6 +28,6 @@ for(let i=0; i<pokemonList.length; i++)
     let height=2.5
     let result;
     if (height>=2.5){
-        result="Wow, your Big!";
+        result="Wow, your Big!"
     }
 }
