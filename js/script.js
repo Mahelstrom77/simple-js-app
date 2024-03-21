@@ -10,9 +10,11 @@ for(let i=0; i<pokemonList.length; i++)
     if(pokemonList[i].height<=1){
         document.write(pokemonList[i].name +" is pikachu");
     }
+
     else if(pokemonList[i].height>1 && pokemonList[i].height<2.5){
         document.write(pokemonList[i].name + " is vileplume");  
     }
+    
     else{
         document.write(pokemonList[i].name + " is gengar");
     }
