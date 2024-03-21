@@ -30,4 +30,5 @@ for(let i=0; i<pokemonList.length; i++)
     if (height>=2.5){
         result="Wow, your Big!"
     }
+    document.write(height)
 }
