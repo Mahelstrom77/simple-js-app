@@ -25,10 +25,7 @@ for(let i=0; i<pokemonList.length; i++)
         console.log(pokemonList[i].name + " is gengar");
         document.write(pokemonList[i].name+ text3)
     }
-    let height=2.5
-    let result;
-    if (height>=2.5){
-        result="Wow, your Big!"
+    if(height===2.5){
+        document.write('Wow, your Big!')
     }
-    document.write(height)
 }
