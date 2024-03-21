@@ -23,6 +23,8 @@ if (pokemonList[i].height>2 && pokemonList[i].height<3){
                 document.write(pokemonList[i].name + "(height:2.5)");
     }
     //conditional to tell that this pokemon is big//
+if(pokemonList[i].height>2.1){
+        document.write('Wow, your big!')
     }
     let height=2;
     let result;
@@ -32,5 +34,5 @@ if (pokemonList[i].height>2 && pokemonList[i].height<3){
     else{
         result='normal height';
     }
-
+}
    
