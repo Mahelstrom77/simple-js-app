@@ -18,12 +18,12 @@ for(let i=0; i<pokemonList.length; i++)
         
     }
     else if(pokemonList[i].height>1 && pokemonList[i].height<2.5){
-        console.log(pokemonList[i].name + " is vileplume");
-        document.write(pokemonList[i].name+ text2)  
+        document.write(pokemonList[i].name + " is vileplume"+ text2);
+  
     }
     else{
-        console.log(pokemonList[i].name + " is gengar");
-        document.write(pokemonList[i].name+ text3)
+        document.write(pokemonList[i].name + " is gengar"+text3);
+
     }
     //conditional write in//
     if(pokemonList[i].height>2){
