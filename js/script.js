@@ -14,15 +14,15 @@ let text3='(height:2.5)'
 for(let i=0; i<pokemonList.length; i++)
 {
     if(pokemonList[i].height<=1){
-        document.write(pokemonList[i].name +" is pikachu"+ text1);
+        document.write(pokemonList[i].name +text1);
         
     }
     else if(pokemonList[i].height>1 && pokemonList[i].height<2.5){
-        document.write(pokemonList[i].name + " is vileplume"+ text2);
+        document.write(pokemonList[i].name + text2);
   
     }
     else{
-        document.write(pokemonList[i].name + " is gengar"+text3);
+        document.write(pokemonList[i].name +text3);
 
     }
     //conditional write in//
